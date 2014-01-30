@@ -1,5 +1,5 @@
 {
-    "name": "Surfboard",
+    "name": "surfboard",
     "version": "0.0.2",
     "author": "Grant Miiller <grant@m2iller.com>",
     "description": "Open web pages through Node",
@@ -20,6 +20,8 @@
     "engines": {
         "node": "0.10.x"
     },
+
+    "main": "./lib/surfboard.js",
 
     "os": ["linux"]
 }
