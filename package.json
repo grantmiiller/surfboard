@@ -1,0 +1,25 @@
+{
+    "name": "Surfboard",
+    "version": "0.0.2",
+    "author": "Grant Miiller <grant@m2iller.com>",
+    "description": "Open web pages through Node",
+    "keywords": ["url", "webpage", "webpages", "open"],
+    "homepage": "https://github.com/grantmiiller/surfboard",
+    "license": "MIT",
+
+    "bugs": {
+        "url": "https://github.com/grantmiiller/surfboard/issues"
+    },
+
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/grantmiiller/surfboard.git"
+    },
+
+    "engines": {
+        "node": "0.10.x"
+    },
+
+    "os": ["linux"]
+}
