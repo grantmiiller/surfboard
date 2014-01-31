@@ -23,5 +23,5 @@
 
     "main": "./lib/surfboard.js",
 
-    "os": ["linux", "darwin"]
+    "os": ["linux", "darwin", "win32"]
 }
