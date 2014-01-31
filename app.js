@@ -1,5 +1,13 @@
-var sf = require('./lib/surfboard.js');
+var url = 'httpfxzghauihiusds://:google';
 
-sf.openUrl('http://www.google.com');
+if(url.search(/^(ftp|http|https):\/\//) === -1) {
+    console.log('Invalid protocol, cleaning up and assuming http');
+    url = url.replace(/^.*:\/\//, 'http://');
+    console.log(url);
+}
 
-process.exit(0);
+if(url.search(/[\w]+\./) === -1) {
+    console.log('No valid thing');
+} else {
+    console.log('valid thing');
+}
