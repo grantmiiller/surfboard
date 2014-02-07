@@ -1,6 +1,6 @@
 {
   "name": "surfboard",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Grant Miiller <grant@m2iller.com>",
   "description": "Open web pages through Node",
   "keywords": [
