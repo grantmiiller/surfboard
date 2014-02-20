@@ -6,7 +6,7 @@ A simple Node module to open web pages
 
 The `openUrl` method takes a string. If not an entire url, ie http://google.com, it will attempt to build an url using the http protocol and .com top-level domain name.
 ```
-var sf = require('surfboard');
+var sb = require('surfboard');
 
-sf.openUrl('google');
+sb.openUrl('google');
 ```
